@@ -39,5 +39,6 @@ public class RegistrationServlet extends HttpServlet {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher("register.jsp").forward(request, response);
         }
+        //ad
     }
 }
